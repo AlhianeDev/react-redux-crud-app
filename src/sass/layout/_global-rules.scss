@@ -1,0 +1,121 @@
+@use "../helpers/mixins/mixins" as *;
+
+@use "../helpers/variables/spaces/paddings" as *;
+
+@use "../helpers/variables/spaces/margins" as *;
+
+@use "../helpers/variables/colors/colors" as *;
+
+@use "../helpers/variables/borders/borders" as *;
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container {
+
+    width: 100%;
+    
+    padding: 0 15px;
+
+    margin: 0 auto;
+
+    @include breakPoints(small) {
+
+        width: 790px;
+
+    }
+
+    @include breakPoints(medium) {
+
+        width: 970px;
+
+    }
+
+    @include breakPoints(large) {
+
+        width: 1170px;
+
+    }
+
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+li {
+
+    list-style: none;
+
+}
+
+section {
+
+    padding: $xxl-padding 0;
+
+}
+
+form {
+
+    width: 600px;
+
+    max-width: 100%;
+
+    margin: 0 auto;
+
+    padding: $xl-padding;
+
+    background-color: $main-color;
+
+    border-radius: $radius;
+
+    .input-box {
+
+        margin-bottom: $xl-margin;
+
+        input {
+
+            width: 100%;
+
+            padding: $md-padding;
+
+            border-radius: $radius;
+
+            border: none;
+
+            &:focus {
+
+                outline: none;
+
+            }
+
+        }
+
+        label {
+
+            display: block;
+
+            margin-bottom: $md-margin;
+
+            color: $white-color;
+
+        }
+
+    }
+
+}

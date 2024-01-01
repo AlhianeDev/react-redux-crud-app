@@ -1,0 +1,119 @@
+@use "../helpers/variables/borders/borders" as *;
+
+@use "../helpers/variables/spaces/margins" as *;
+
+@use "../helpers/variables/spaces/paddings" as *;
+
+@use "../helpers/mixins/mixins" as *;
+
+.home {
+
+    .table {
+
+        width: 100%;
+
+        margin-top: $xxl-margin;
+
+        border-collapse: collapse;
+
+        border: $main-border;
+
+        th, td {
+
+            padding: $md-padding;
+
+            border: $main-border;
+
+            text-align: left;
+
+            letter-spacing: 1px;
+
+        }
+
+        td {
+
+            .btn {
+
+                margin: 0 $md-margin;
+
+                &:last-child {
+
+                    @include breakPoints(mobile) {
+
+                        margin-left: 0 !important;
+
+                    }
+
+                }
+
+            }
+
+        }
+
+        @include breakPoints(mobile) {
+
+            &, tbody, thead, tr, td, th {
+
+                display: block;
+
+            }
+
+            thead tr {
+
+                position: absolute;
+
+                top: -9999px;
+
+                left: -9999px;
+
+            }
+
+            tr {
+
+               border: $main-border
+
+            }
+
+            td {
+
+                border: none;
+
+                border-bottom: 1px solid #eee; 
+
+                position: relative;
+
+                padding-left: 30%;
+
+                line-height: 1.5;
+
+                &::before {
+
+                    position: absolute;
+
+                    top: 6px;
+
+                    left: 6px;
+
+                    width: 25%; 
+
+                    padding-right: 10px; 
+                    
+                    white-space: nowrap;
+
+                }
+
+                &:nth-of-type(1):before { content: "Id"; }
+
+                &:nth-of-type(2):before { content: "Name"; }
+
+                &:nth-of-type(3):before { content: "Email"; }
+
+                &:nth-of-type(4):before { content: "Actions"; }
+
+            }
+
+        }
+
+    }
+
+}

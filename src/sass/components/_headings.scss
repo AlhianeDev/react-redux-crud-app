@@ -1,0 +1,21 @@
+@use "../helpers/variables/colors/colors" as *;
+
+@use "../helpers/variables/spaces/margins" as *;
+
+@use "../helpers/mixins/mixins" as *; 
+
+.main-heading {
+
+    margin-bottom: $xxl-margin;
+
+    letter-spacing: 1px;
+
+    color: $black-color;
+
+    @include breakPoints(mobile) {
+
+        font-size: 18px;
+
+    }
+
+}

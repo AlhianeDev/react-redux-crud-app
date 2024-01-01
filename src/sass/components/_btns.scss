@@ -1,0 +1,43 @@
+@use "../helpers/variables/colors/colors" as *;
+
+@use "../helpers/variables/spaces/paddings" as *;
+
+@use "../helpers/variables/borders/borders" as *;
+
+@use "../helpers/variables/fonts/fonts" as *;
+
+.btn {
+
+    padding: $md-padding $xxl-padding;
+
+    border: none;
+
+    border-radius: $radius;
+
+    letter-spacing: 1px;
+
+    font-weight: $weight-600;
+
+    color: $white-color;
+
+    cursor: pointer;
+
+    &.green {
+
+        background-color: $green-color;
+
+    }
+
+    &.blue {
+
+        background-color: $blue-color;
+
+    }
+
+    &.red {
+
+        background-color: $red-color;
+
+    }
+
+}
