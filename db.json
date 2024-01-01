@@ -1,3 +1,19 @@
 {
-  "users": []
+  "users": [
+    {
+      "id": "5840c5d6-48bb-4ff3-8222-5dc44091ff56",
+      "name": "Aicha Alhiane",
+      "email": "aicha@gmail.com"
+    },
+    {
+      "id": "484985a8-07d8-4ec4-8d9d-bedb2f90a646",
+      "name": "Mohammed Alhiane",
+      "email": "mohammed@gmail.com"
+    },
+    {
+      "id": "2f42d64e-285b-4b93-98a6-c12835f23e7b",
+      "name": "Khadija Chafi",
+      "email": "khadija@gmail.com"
+    }
+  ]
 }
