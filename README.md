@@ -2,7 +2,7 @@
 
 ### A simple React + Typescript + Redux Toolkit App
 
-![[alt text](https://github.com/AlhianeDev/react-redux-crud-app/blob/main/github-images/banner.png)
+![alt text](https://github.com/AlhianeDev/react-redux-crud-app/blob/main/github-images/banner.png)
 
 - View the local installation in the [CONTRUBUTING.md.](https://github.com/AlhianeDev/react-redux-crud-app/blob/main/CONTRUBUTING.md)
 
