@@ -2,7 +2,7 @@
 
 ### A simple React + Typescript + Redux Toolkit App
 
-![[alt text](https://github.com/AlhianeDev/react-redux-crud-app/blob/main/github-images/banner.png))
+![[alt text](https://github.com/AlhianeDev/react-redux-crud-app/blob/main/github-images/banner.png)
 
 - View the local installation in the [CONTRUBUTING.md.](https://github.com/AlhianeDev/react-redux-crud-app/blob/main/CONTRUBUTING.md)
 
@@ -72,19 +72,35 @@
 
 ![alt text](https://github.com/AlhianeDev/react-redux-crud-app/blob/main/github-images/image-1.png)
 
+***
+
 ![alt text](https://github.com/AlhianeDev/react-redux-crud-app/blob/main/github-images/image-2.png)
+
+***
 
 ![alt text](https://github.com/AlhianeDev/react-redux-crud-app/blob/main/github-images/image-3.png)
 
+***
+
 ![alt text](https://github.com/AlhianeDev/react-redux-crud-app/blob/main/github-images/image-4.png)
+
+***
 
 ![alt text](https://github.com/AlhianeDev/react-redux-crud-app/blob/main/github-images/image-5.png)
 
+***
+
 ![alt text](https://github.com/AlhianeDev/react-redux-crud-app/blob/main/github-images/image-6.png)
+
+***
 
 ![alt text](https://github.com/AlhianeDev/react-redux-crud-app/blob/main/github-images/image-7.png)
 
+***
+
 ![alt text](https://github.com/AlhianeDev/react-redux-crud-app/blob/main/github-images/image-8.png)
+
+***
 
 ![alt text](https://github.com/AlhianeDev/react-redux-crud-app/blob/main/github-images/image-9.png)
 
